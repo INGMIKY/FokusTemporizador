@@ -65,7 +65,7 @@ function cambiarContexto(contexto){
     })
 
     html.setAttribute('data-contexto', contexto);
-    banner.setAttribute('src', `/imagenes/${contexto}.png` );
+    banner.setAttribute('src', `./imagenes/${contexto}.png` );
 
 
     switch(contexto){
